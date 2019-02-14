@@ -13,7 +13,7 @@
 		<url>https://waylau.com</url>
 	</organization>
 	<properties>
-		<spring.version>5.1.3.RELEASE</spring.version>
+		<spring.version>5.1.5.RELEASE</spring.version>
 	</properties>
 	<dependencies>
 		<dependency>
