@@ -1,0 +1,493 @@
+# 目录
+
+* [内容简介](docs/introduction.md)
+* [前言](docs/preface.md)
+* [第1章 轻量级架构概述](docs/ch1/1.md)
+    * [1.1 大型互联网应用的特征](docs/ch1/1-1.md)
+        * 1.1.1 快！快！快！
+        * 1.1.2 渐进式开发
+        * 1.1.3 拥抱变化
+        * 1.1.4 敏捷之道
+        * 1.1.5 开源技术
+        * 1.1.6 微服务
+        * 1.1.7 高并发
+        * 1.1.8 高可用
+    * [1.2 传统企业级应用技术的不足](docs/ch1/1-2.md)
+        * 1.2.1 规范太重
+        * 1.2.2 学习成本太高
+        * 1.2.3 不够灵活
+        * 1.2.4 发展缓慢
+    * [1.3 什么是Lite框架](docs/ch1/1-3.md)
+        * 1.3.1 轻量级架构
+        * 1.3.2 符合二八定律
+        * 1.3.3 基于开源技术
+        * 1.3.4 支持微服务
+        * 1.3.5 可用性和扩展性
+        * 1.3.6 支撑大型互联网应用
+* [第2章 Servlet](docs/ch2/2.md)
+    * [2.1 Servlet概述](docs/ch2/2-1.md)
+        * 2.1.1 Servlet架构
+        * 2.1.2 Servlet生命周期
+        * 2.1.3 常用方法
+        * 2.1.4 Servlet容器
+        * 2.1.5 常用Servlet容器
+    * [2.2 请求](docs/ch2/2-2.md)
+        * 2.2.1 HTTP协议参数
+        * 2.2.2 属性
+        * 2.2.3 请求头
+        * 2.2.4 请求路径元素
+        * 2.2.5 路径转换方法
+        * 2.2.6 请求数据编码
+    * [2.3 Servlet上下文](docs/ch2/2-3.md)
+        * 2.3.1 ServletContext接口介绍
+        * 2.3.2 ServletContext接口作用域
+        * 2.3.3 初始化参数
+        * 2.3.4 配置方法
+        * 2.3.5 上下文属性
+        * 2.3.6 资源
+    * [2.4 响应](docs/ch2/2-4.md)
+        * 2.4.1 缓冲
+        * 2.4.2 头
+        * 2.4.3 方法
+    * [2.5 实战：基于Servlet的Web程序](docs/ch2/2-5.md)
+        * 2.5.1 创建动态Web项目
+        * 2.5.2 创建Servlet实现类
+        * 2.5.3 修改HelloServlet类
+        * 2.5.4 运行应用
+    * [2.6 Jetty](docs/ch2/2-6.md)
+        * 2.6.1 高性能Servlet容器
+        * 2.6.2 可拔插
+        * 2.6.3 Jetty常用配置
+    * [2.7 实战：在应用里面内嵌Jetty容器](docs/ch2/2-7.md)
+        * 2.7.1 Maven插件形式
+        * 2.7.2 编程方式
+* [第3章 Spring基础](docs/ch3/3.md)
+    * [3.1 Spring概述](docs/ch3/3-1.md)
+        * 3.1.1 Spring的广义与狭义
+        * 3.1.2 Spring框架总览
+        * 3.1.3 Spring框架常用模块
+        * 3.1.4 Spring设计模式
+    * [3.2 IoC](docs/ch3/3-2.md)
+        * 3.2.1 依赖注入与控制反转
+        * 3.2.2 IoC容器和bean
+        * 3.2.3 配置元数据
+        * 3.2.4 实例化容器
+        * 3.2.5 使用容器
+        * 3.2.6 实例化bean的方式
+        * 3.2.7 注入方式
+        * 3.2.8 实战：依赖注入的例子
+        * 3.2.9 bean scope
+        * 3.2.10 自定义scope
+        * 3.2.11 基于注解的配置
+        * 3.2.12 类路径扫描及组件管理
+        * 3.2.13 基于Java的容器配置
+        * 3.2.14 环境抽象
+    * [3.3 AOP](docs/ch3/3-3.md)
+        * 3.3.1 AOP概述
+        * 3.3.2 AOP核心概念
+        * 3.3.3 Spring AOP
+        * 3.3.4 AOP代理
+        * 3.3.5 实战：使用@AspectJ的例子
+        * 3.3.6 基于XML的AOP
+        * 3.3.7 实战：基于XML的AOP的例子
+    * [3.4 资源处理](docs/ch3/3-4.md)
+        * 3.4.1 常用资源接口
+        * 3.4.2 内置资源接口实现
+        * 3.4.3 ResourceLoader
+        * 3.4.4 ResourceLoaderAware
+        * 3.4.5 资源作为依赖
+    * [3.5 表达式语言SpEL](docs/ch3/3-5.md)
+        * 3.5.1 SpEL概述
+        * 3.5.2 表达式接口
+        * 3.5.3 对于bean定义的支持
+        * 3.5.4 实战：使用SpEL的例子
+* [第4章 Spring单元测试](docs/ch4/4.md)
+    * [4.1 Mock对象](docs/ch4/4-1.md)
+        * 4.1.1 Environment
+        * 4.1.2 JNDI
+        * 4.1.3 Servlet API
+    * [4.2 测试工具类](docs/ch4/4-2.md)
+        * 4.2.1 测试工具
+        * 4.2.2 测试 Spring MVC
+* [第5章 Spring集成测试](docs/ch5/5.md)
+    * [5.1 集成测试概述](docs/ch5/5-1.md)
+        * 5.1.1 上下文管理与缓存
+        * 5.1.2 测试夹具的依赖注入
+        * 5.1.3 事务管理
+        * 5.1.4 集成测试类
+        * 5.1.5 JDBC
+    * [5.2 测试相关的注解](docs/ch5/5-2.md)
+        * 5.2.1 @BootstrapWith
+        * 5.2.2 @ContextConfiguration
+        * 5.2.3 @WebAppConfiguration
+        * 5.2.4 @ContextHierarchy
+        * 5.2.5 @ActiveProfiles
+        * 5.2.6 @TestPropertySource
+        * 5.2.7 @DirtiesContext
+        * 5.2.8 @TestExecutionListeners
+        * 5.2.9 @Commit
+        * 5.2.10 @Rollback
+        * 5.2.11 @BeforeTransaction
+        * 5.2.12 @AfterTransaction
+        * 5.2.13 @Sql
+        * 5.2.14 @SqlConfig
+        * 5.2.15 @SqlGroup
+        * 5.2.16 Spring JUnit 4注解
+        * 5.2.17 Spring JUnit Jupiter注解
+    * [5.3 Spring TestContext框架](docs/ch5/5-3.md)
+        * 5.3.1 Spring TestContext框架概述
+        * 5.3.2 核心抽象
+        * 5.3.3 引导TestContext
+        * 5.3.4 TestExecutionListener配置
+        * 5.3.5 上下文管理
+        * 5.3.6 测试夹具的依赖注入
+        * 5.3.7 如何测试request bean和session bean
+        * 5.3.8 事务管理
+        * 5.3.9 执行SQL脚本
+    * [5.4 Spring MVC Test框架](docs/ch5/5-4.md)
+        * 5.4.1 服务端测试概述
+        * 5.4.2 选择测试策略
+        * 5.4.3 设置测试功能
+        * 5.4.4 执行请求
+        * 5.4.5 定义期望
+        * 5.4.6 注册过滤器
+        * 5.4.7 脱离容器的测试
+        * 5.4.8 实战：服务端测试的例子
+* [第6章 Spring事务管理](docs/ch6/6.md)
+    * [6.1 事务管理概述](docs/ch6/6-1.md)
+        * 6.1.1 Spring事务管理优势
+        * 6.1.2 全局事务与本地事务
+        * 6.1.3 Spring事务模型
+    * [6.2 通过事务实现资源同步](docs/ch6/6-2.md)
+        * 6.2.1 高级别的同步方法
+        * 6.2.2 低级别的同步方法
+        * 6.2.3 TransactionAwareDataSourceProxy
+    * [6.3 声明式事务管理](docs/ch6/6-3.md)
+        * 6.3.1 声明式事务管理
+        * 6.3.2 实战：声明式事务管理的例子
+        * 6.3.3 事务回滚
+        * 6.3.4 配置不同的事务策略
+        * 6.3.5 @Transactional详解
+        * 6.3.6 事务传播机制
+    * [6.4 编程式事务管理](docs/ch6/6-4.md)
+        * 6.4.1 TransactionTemplate
+        * 6.4.2 PlatformTransactionManager
+        * 6.4.3 编程式事务管理
+* [第7章 Spring Web MVC](docs/ch7/7.md)
+    * [7.1 Spring Web MVC概述](docs/ch7/7-1.md)
+    * [7.2 DispatcherServlet](docs/ch7/7-2.md)
+        * 7.2.1 DispatcherServlet概述
+        * 7.2.2 上下文层次结构
+        * 7.2.3 处理流程
+        * 7.2.4 拦截
+    * [7.3 过滤器](docs/ch7/7-3.md)
+        * 7.3.1 HTTP PUT表单
+        * 7.3.2 转发头
+        * 7.3.3 ShallowEtagHeaderFilter
+        * 7.3.4 CORS
+    * [7.4 控制器](docs/ch7/7-4.md)
+        * 7.4.1 声明控制器
+        * 7.4.2 请求映射
+        * 7.4.3 处理器方法
+        * 7.4.4 模型方法
+        * 7.4.5 绑定器方法
+    * [7.5 异常处理](docs/ch7/7-5.md)
+        * 7.5.1 @ExceptionHandler
+        * 7.5.2 框架异常处理
+        * 7.5.3 REST API 异常
+        * 7.5.4 注解异常
+        * 7.5.5 容器错误页面
+    * [7.6 CORS处理](docs/ch7/7-6.md)
+        * 7.6.1 @CrossOrigin
+        * 7.6.2 全局CORS配置
+        * 7.6.3 自定义
+        * 7.6.4 CORS 过滤器
+    * [7.7 HTTP缓存](docs/ch7/7-7.md)
+        * 7.7.1 缓存控制
+        * 7.7.2 静态资源
+        * 7.7.3 控制器缓存
+    * [7.8 MVC配置](docs/ch7/7-8.md)
+        * 7.8.1 启用MVC配置
+        * 7.8.2 类型转换
+        * 7.8.3 验证
+        * 7.8.4 拦截器
+        * 7.8.5 内容类型
+        * 7.8.6 消息转换器
+        * 7.8.7 视图控制器
+        * 7.8.8 视图解析器
+        * 7.8.9 静态资源
+        * 7.8.10 DefaultServletHttpRequestHandler
+        * 7.8.11 路径匹配
+    * [7.9 实战：基于Spring Web MVC的REST接口](docs/ch7/7-9.md)
+        * 7.9.1 接口设计
+        * 7.9.2 系统配置
+        * 7.9.3 后台编码实现
+        * 7.9.4 应用配置
+        * 7.9.5 运行应用
+* [第8章 Spring Security](docs/ch8/8.md)
+    * [8.1 基于角色的权限管理](docs/ch8/8-1.md)
+        * 8.1.1 什么是角色
+        * 8.1.2 基于角色的访问控制
+        * 8.1.3 哪种方式更好
+        * 8.1.4 真实的案例
+    * [8.2 Spring Security概述](docs/ch8/8-2.md)
+        * 8.2.1 Spring Security的认证模型
+        * 8.2.2 安装Spring Security
+        * 8.2.3 模块
+        * 8.2.4 Spring Security 5新特性及高级功能
+    * [8.3 实战：基于Spring Security安全认证](docs/ch8/8-3.md)
+        * 8.3.1 添加依赖
+        * 8.3.2 添加业务代码
+        * 8.3.3 配置消息转换器
+        * 8.3.4 配置Spring Security
+        * 8.3.5 创建应用配置类
+        * 8.3.6 创建内嵌Jetty的服务器
+        * 8.3.7 应用启动器
+        * 8.3.8 运行应用
+* [第9章 MyBatis基础](docs/ch9/9.md)
+    * [9.1 MyBatis概述](docs/ch9/9-1.md)
+    * [9.2 与Hibernate对比](docs/ch9/9-2.md)
+        * 9.2.1 框架复杂度
+        * 9.2.2 学习成本
+        * 9.2.3 性能
+    * [9.3 四大核心概念](docs/ch9/9-3.md)
+        * 9.3.1 SqlSessionFactoryBuilder
+        * 9.3.2 SqlSessionFactory
+        * 9.3.3 SqlSession
+        * 9.3.4 Mapper
+    * [9.4 生命周期及作用域](docs/ch9/9-4.md)
+        * 9.4.1 SqlSessionFactoryBuilder
+        * 9.4.2 SqlSessionFactory
+        * 9.4.3 SqlSession
+        * 9.4.4 Mapper实例
+* [第10章 MyBatis高级应用](docs/ch10/10.md)
+    * [10.1 配置文件](docs/ch10/10-1.md)
+        * 10.1.1 properties
+        * 10.1.2 settings
+        * 10.1.3 typeAliases
+        * 10.1.4 typeHandlers
+        * 10.1.5 objectFactory
+        * 10.1.6 plugins
+        * 10.1.7 environments
+        * 10.1.8 transactionManager
+        * 10.1.9 dataSource
+        * 10.1.10 databaseIdProvider
+        * 10.1.11 mappers
+    * [10.2 Mapper映射文件](docs/ch10/10-2.md)
+        * 10.2.1 select
+        * 10.2.2 insert、update和delete
+        * 10.2.3 处理主键
+        * 10.2.4 sql
+        * 10.2.5 参数
+        * 10.2.6 结果映射
+        * 10.2.7 自动映射
+        * 10.2.8 缓存
+    * [10.3 动态SQL](docs/ch10/10-3.md)
+        * 10.3.1 if
+        * 10.3.2 choose（when，otherwise）
+        * 10.3.3 trim（where，set）
+        * 10.3.4 foreach
+        * 10.3.5 bind
+        * 10.3.6 多数据库支持
+    * [10.4 常用API](docs/ch10/10-4.md)
+        * 10.4.1 SqlSessionFactoryBuilder
+        * 10.4.2 SqlSessionFactory
+        * 10.4.3 SqlSession
+        * 10.4.4 注解
+* [第11章 Lite技术集成](docs/ch11/11.md)
+    * [11.1 技术集成概述](docs/ch11/11-1.md)
+    * [11.2 MySQL安装及基本操作](docs/ch11/11-2.md)
+        * 11.2.1 下载安装包
+        * 11.2.2 解压安装包
+        * 11.2.3 创建my.ini
+        * 11.2.4 初始化安装
+        * 11.2.5 启动、关闭MySQL server
+        * 11.2.6 使用MySQL客户端
+        * 11.2.7 MySQL常用指令
+    * [11.3 Spring与MyBatis集成](docs/ch11/11-3.md)
+        * 11.3.1 添加依赖
+        * 11.3.2 初始化数据库信息
+        * 11.3.3 数据库链接池配置
+        * 11.3.4 编写业务代码
+        * 11.3.3 编写测试用例
+    * [11.4 集成Spring Web MVC](docs/ch11/11-4.md)
+        * 11.4.1 添加依赖
+        * 11.4.2 添加控制器
+        * 11.4.3 修改UserMapper
+        * 11.4.4 引入Servlet容器
+        * 11.4.5 创建应用配置
+        * 11.4.6 运行应用
+    * [11.5 集成Spring Security](docs/ch11/11-5.md)
+        * 11.5.1 添加依赖
+        * 11.5.2 添加安全配置类
+        * 11.5.3 修改AppConfiguration
+        * 11.5.4 修改嵌入服务器
+        * 11.5.5 运行应用
+    * [11.6 集成日志框架](docs/ch11/11-6.md)
+        * 11.6.1 日志框架概述
+        * 11.6.2 添加依赖
+        * 11.6.3 添加日志配置文件
+        * 11.6.4 使用日志框架
+        * 11.6.5 修改嵌入服务器
+        * 11.6.6 运行应用
+* [第12章 Lite架构分层](docs/ch12/12.md)
+    * [12.1 分层架构概述](docs/ch12/12-1.md)
+        * 12.1.1 应用的分层
+        * 12.1.2 不分层的应用架构
+        * 12.1.3 应用的三层架构
+        * 12.1.4 MVC与三层架构的差异
+        * 12.1.5 Lite的分层架构 
+    * [12.2 数据访问层](docs/ch12/12-2.md)
+        * 12.2.1 仓储模式
+        * 12.2.2 数据访问对象模式
+    * [12.3 事务处理](docs/ch12/12-3.md)
+    * [12.4 权限验证](docs/ch12/12-4.md)
+    * [12.5 接口访问层](docs/ch12/12-5.md)
+        * 12.5.1 什么是REST
+        * 12.5.2 REST有哪些特征
+        * 12.5.3 Java REST规范
+    * [12.6 实战：Lite框架的搭建](docs/ch12/12-6.md)
+        * 12.6.1 内嵌Sevlet容器
+        * 12.6.2 三种启动方式
+        * 12.6.3 支持打包为可执行的jar
+        * 12.6.4 支持REST API
+        * 12.6.5 支持JUnit5测试
+        * 12.6.6 支持传入外部上下文
+        * 12.6.7 实现数据访问层
+        * 12.6.8 实现安全认证
+    * [12.7 发布Lite框架到Maven中央仓库](docs/ch12/12-7.md)
+        * 12.7.1 注册Sonatype账号
+        * 12.7.2 创建一个Issue
+        * 12.7.3 等待Issue审核
+        * 12.7.4 下载安装Gpg4win
+        * 12.7.5 生成密钥对
+        * 12.7.6 修改pom文件
+        * 12.7.7 修改Maven的settings.xml文件
+        * 12.7.8 发布到仓库
+        * 12.7.9 查看Lite源码
+* [第13章 实战：基于Lite框架的互联网应用](docs/ch13/13.md)
+    * [13.1 lite-news概述](docs/ch13/13-1.md)
+        * 13.1.1 初始化数据库
+        * 13.1.2 创建用户表
+        * 13.1.3 创建新闻表
+    * [13.2 模型设计](docs/ch13/13-2.md)
+        * 13.2.1 用户模型设计
+        * 13.2.2 新闻模型设计
+    * [13.3 接口设计](docs/ch13/13-3.md)
+        * 13.3.1 DAO接口设计
+        * 13.3.2 服务接口设计
+        * 13.3.3 REST接口设计
+    * [13.4 权限管理](docs/ch13/13-4.md)
+        * 13.4.1 实现UserDetailsService
+        * 13.4.2 定义安全配置类
+    * [13.5 前端lite-news-ui设计](docs/ch13/13-5.md)
+        * 13.5.1 应用概述
+        * 13.5.2 需求分析
+    * [13.6 实现lite-news-ui原型](docs/ch13/13-6.md)
+        * 13.6.1 开发环境准备
+        * 13.6.2 初始化lite-news-ui
+        * 13.6.3 添加Angular Material
+        * 13.6.4 创建新闻列表组件
+        * 13.6.5 实现新闻列表原型设计
+        * 13.6.6 实现新闻详情原型设计
+    * [13.7 实现路由器](docs/ch13/13-7.md)
+        * 13.7.1 创建路由
+        * 13.7.2 添加路由出口
+        * 13.7.3 修改新闻列表组件
+        * 13.7.4 增加返回按钮时间
+        * 13.7.5 运行应用
+    * [13.8 实现用户登录](docs/ch13/13-8.md)
+        * 13.8.1 创建后台管理组件
+        * 13.8.2 添加组件到路由器
+        * 13.8.3 注入HTTP客户端
+        * 13.8.4 客户端访问后台接口
+    * [13.9 实现新闻编辑器](docs/ch13/13-9.md)
+        * 13.9.1 集成ngx-markdown插件
+        * 13.9.2 导入MarkdownModule模块
+        * 13.9.3 编写编辑器界面
+        * 13.9.4 调整后台接口路径
+        * 13.9.5 运行
+    * [13.10 实现新闻列表展示](docs/ch13/13-10.md)
+        * 13.10.1 实现新闻列表查询的接口
+        * 13.10.2 实现客户端访问新闻列表REST接口
+        * 13.10.3 运行应用
+    * [13.11 实现新闻详情展示](docs/ch13/13-11.md)
+        * 13.11.1 实现新闻详情查询的接口
+        * 13.11.2 实现客户端访问新闻详情REST接口
+        * 13.11.3 设置路由
+        * 13.11.4 运行应用
+    * [13.12 总结](docs/ch13/13-12.md)
+* [第14章 使用NGINX实现高可用](docs/ch14/14.md)
+    * [14.1 NGINX概述](docs/ch14/14-1.md)
+        * 14.1.1 NGINX特性
+        * 14.1.2 下载、安装、运行NGINX
+        * 14.1.3 安装、运行NGINX
+        * 14.1.4 验证安装
+        * 14.1.5 常用命令
+    * [14.2 部署Angular应用](docs/ch14/14-2.md)
+        * 14.2.1 编译Angular应用
+        * 14.2.2 部署Angular编译文件
+        * 14.2.3 配置NGINX
+    * [14.3 实现负载均衡及高可用](docs/ch14/14-3.md)
+        * 14.3.1 配置负载均衡
+        * 14.3.2 负载均衡常用算法
+        * 14.3.3 实现后台服务的高可用
+        * 14.3.4 运行
+* [第15章 使用Redis实现高并发](docs/ch15/15.md)
+    * [15.1 为啥我们需要缓存](docs/ch15/15-1.md)
+    * [15.2 了解Redis服务器](docs/ch15/15-2.md)
+        * 15.2.1 Redis简介
+        * 15.2.2 Redis的下载、安装、使用
+        * 15.2.3 Redis的数据类型及抽象
+    * [15.3 使用Redis](docs/ch15/15-3.md)
+        * 15.3.1 编程式
+        * 15.3.2 声明式
+    * [15.4 lite-news实现缓存](docs/ch15/15-4.md)
+        * 15.4.1 集成Redis客户端
+        * 15.4.2 增加Spring Data Redis配置
+        * 15.4.3 使用Spring缓存注解
+        * 15.4.4 序列化
+        * 15.4.5 运行
+* [第16章 Spring Boot概述](docs/ch16/16.md)
+    * [16.1 构建RESTful服务](docs/ch16/16-1.md)
+        * 16.1.1 配置环境
+        * 16.1.2 RESTful API设计
+        * 16.1.3 编写程序代码
+        * 16.1.4 安装REST客户端
+        * 16.1.5 运行、测试程序
+    * [16.2 Spring Boot的配置详解](docs/ch16/16-2.md)
+        * 16.2.1 理解Spring Boot的自动配置
+        * 16.2.2 重写默认的配置值
+        * 16.2.3 更换配置文件的位置
+        * 16.2.4 自定义配置
+        * 16.2.5 使用.yaml作为配置文件
+        * 16.2.6 profiles的支持
+    * [16.3 内嵌Servlet容器](docs/ch16/16-3.md)
+        * 16.3.1 注册Servlet、过滤器和监听器
+        * 16.3.2 Servlet上下文初始化
+        * 16.3.3 ServletWebServerApplicationContext
+        * 16.3.4 更改内嵌Servlet容器
+    * [16.4 实现安全机制](docs/ch16/16-4.md)
+        * 16.4.1 实现基本认证
+        * 16.4.2 实现OAuth2认证
+        * 16.4.3 示例源码
+* [第17章 基于Spring Boot的Lite框架](docs/ch17/17.md)
+    * [17.1 Lite Spring Boot Starter项目搭建](docs/ch17/17-1.md)
+        * 17.1.1 访问Spring Initializr
+        * 17.1.2 编译项目
+        * 17.1.3 探索项目
+        * 17.1.4 编写RESTful服务
+        * 17.1.5 示例源码
+    * [17.2 集成Jetty](docs/ch17/17-2.md)
+    * [17.3 集成Spring Security](docs/ch17/17-3.md)
+        * 17.3.1 添加安全配置类
+        * 17.3.2 运行应用
+    * [17.4 集成MyBatis](docs/ch17/17-4.md)
+        * 17.4.1 添加MyBatis Spring Boot Starter依赖
+        * 17.4.2 配置数据库连接
+        * 17.4.3 配置Mapper
+        * 17.4.4 编写测试用例
+    * [17.5 总结](docs/ch17/17-5.md)
+* [附录：本书所涉及的技术及相关版本](docs/appendices/appendices-a.md)
+* [参考文献](docs/references.md)
+
