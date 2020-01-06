@@ -73,7 +73,7 @@ Lite框架抛弃了墨守成规、面向规范的臃肿开发方式，转而采�
 
 本书如有勘误，会在<https://github.com/waylau/lite-book-demos/issues>上进行发布。笔者在编写本书的过程中，已竭尽所能地为读者呈现最好、最全的实用功能，但错漏之处在所难免，欢迎读者批评指正，也可以通过以下方式直接联系我们。
 
-您也可以上[豆瓣](https://book.douban.com/subject/30476287/)给老卫打Call。
+您也可以上[豆瓣](https://book.douban.com/subject/34939979/)给老卫打Call。
 
 
 
