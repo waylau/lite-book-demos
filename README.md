@@ -98,7 +98,12 @@ Lite框架抛弃了墨守成规、面向规范的臃肿开发方式，转而采�
 * [亚马逊](https://www.amazon.cn/s?k=%E6%9F%B3%E4%BC%9F%E5%8D%AB+%E5%A4%A7%E5%9E%8B%E4%BA%92%E8%81%94%E7%BD%91%E5%BA%94%E7%94%A8%E8%BD%BB%E9%87%8F%E7%BA%A7%E6%9E%B6%E6%9E%84%E5%AE%9E%E6%88%98&__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&ref=nb_sb_noss)
 
 
-也可以直接关注我博客（<https://waylau.com/>）或者我的开源书（<https://waylau.com/books/>）。
+
+想低于市价得到本书？来[二手书集市](https://github.com/waylau/second-hand-books)试试看。
+
+
+也可以直接关注我博客（<https://waylau.com/>）或者我的开源书（<https://waylau.com/books/>）了解更多免费咨询。
+
 
 
 ## 联系作者
