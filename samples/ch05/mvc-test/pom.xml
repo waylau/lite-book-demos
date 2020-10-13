@@ -12,7 +12,7 @@
     <properties>
         <spring.version>5.2.3.RELEASE</spring.version>
 		<servlet.version>4.0.1</servlet.version>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
     </properties>
 	<dependencies>
 	    <dependency>
