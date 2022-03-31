@@ -17,7 +17,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
 		<java.version>1.8</java.version>
-		<spring.version>5.2.3.RELEASE</spring.version>
+		<spring.version>5.3.18</spring.version>
 		<jetty.version>9.4.14.v20181114</jetty.version>
 		<jackson.version>2.10.2</jackson.version>
 		<mybatis.version>3.4.6</mybatis.version>
